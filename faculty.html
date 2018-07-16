@@ -2,35 +2,39 @@
 
 <html>
 	<head>
-		<title>CSE</title>
+		<title>Faculty</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-    body, {
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-}
-    table {
-  width: 75%;
-  margin-left: auto;
-  margin-right: 25%;
-}
-footer {
+    body, 
+    {
+    	position:fixed;
+    	top:0;
+    	bottom:0;
+    	left:0;
+    	right:0;
+	}
+    table 
+    {
+  		width: 75%;
+  		margin-left: auto;
+  		margin-right: 25%;
+	}
+footer 
+{
     background-color: black;
     padding: 10px;
     text-align: center;
     color: white;
-
 }
 
-.mySlides {display:none;
-		position: relative;
-		}
+.mySlides 
+{
+	display:none;
+	position: relative;
+}
 
 }
 
@@ -40,22 +44,24 @@ footer {
     <!-- Header -->
       <header id="header">
         <div class="inner">
-          <a href="cs.html" class="logo" style="font-style:verdana">Computer Science Department</a>
+          <a href="about.html" class="logo" style="font-style:verdana">Computer Science Department</a>
           <nav id="nav">
-            <a href="generic.html">Student</a>
+						<a href="http://www.mitt.edu.in/index.php">Home</a>
+                        <a href="faculty.html">faculty</a>
+						<a href="workshop.html">Workshops</a>          	
 
           </nav>
         </div>
       </header>
       <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 			<!--slider-->
-			<div class="w3-content w3-section" style="max-width:500px;max-height:500px">
+		<div class="w3-content w3-section" style="max-width:500px;max-height:500px">
 
-  <img class="mySlides" src="images/staff/chetan.jpg" style="width:100%">
-  <img class="mySlides" src="images/staff/csbb.jpg" style="width:100%">
-  <img class="mySlides" src="images/staff/lg.jpg" style="width:100%; ">
-	<img class="mySlides" src="images/staff/css.jpg" style="width:100%;">
-	<img class="mySlides" src="images/staff/tempMale.png" style="width:100%; ">
+  <img class="mySlides" src="images/faculty_grp_pic.jpg" style="width:100%">
+  <img class="mySlides" src="images/pic01.jpg" style="width:100%">
+  <!--<img class="mySlides" src="images/staff/lg.jpg" style="width:100%; ">
+  <img class="mySlides" src="images/staff/css.jpg" style="width:100%;">
+  <img class="mySlides" src="images/staff/tempMale.png" style="width:100%; "> -->
 
 </div>
 
@@ -63,10 +69,12 @@ footer {
 var myIndex = 0;
 carousel();
 
-function carousel() {
+function carousel()
+ {
     var i;
     var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
+    for (i = 0; i < x.length; i++) 
+    {
        x[i].style.display = "none";
     }
     myIndex++;
@@ -80,11 +88,11 @@ function carousel() {
 
 
                   <div class="mu-course-container mu-course-details">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="mu-latest-course-single">
+                  <div class="row">
+                  <div class="col-md-12">
+                  <div class="mu-latest-course-single">
 
-                          <div class="mu-latest-course-single-content">
+                  <div class="mu-latest-course-single-content">
 
             <br><br>
 
@@ -98,8 +106,11 @@ function carousel() {
 
   			<br><br>
   			<div style="float:left;"><img src="images/staff/chetan.jpg" align="left" style="width:180px; height:188px; padding:5px; text-align:center;"><br><b>&nbsp;&nbsp;Dr H.K Chethan</b><br>&nbsp;&nbsp;Mentor</div>
-  			<!-- <div style="float:left;"><img src="assets/img/teachers/chetan.jpg" style="width:180px; height:188px; padding:5px;"><br><b>&nbsp;&nbsp;Dr H.K Chethan</b><br>&nbsp;&nbsp;HOD<br>&nbsp;&nbsp;chethanhk@mitmysore.in -->
-  </div>
+            <div style="float:left;"><img src="images/staff/tempMale.png" align="left" style="width:180px; height:188px; padding:5px; text-align:center;"><br><b>&nbsp;&nbsp;Dr.Guru</b><br>&nbsp;&nbsp;****</div>
+            <div style="float:left;"><img src="images/staff/tempMale.png" align="left" style="width:180px; height:188px; padding:5px; text-align:center;"><br><b>&nbsp;&nbsp;Bubble sort Women</b><br>&nbsp;&nbsp;****</div><!-- Must give space -->
+
+
+  			<!--<div style="float:left;"><img src="assets/img/teachers/chetan.jpg" style="width:180px; height:188px; padding:5px;"><br><b>&nbsp;&nbsp;Dr H.K Chethan</b><br>&nbsp;&nbsp;HOD<br>&nbsp;&nbsp;chethanhk@mitmysore.in</div>-->
 
 
   			</td>
@@ -132,7 +143,7 @@ function carousel() {
 
                                     <td  class="padd_lft"  style="height:90px;">Master's degree (Computer Science & Engineering,Computer Network and Engineering),<br>Bachelor's  degree(Computer Science)</td>
 
-                                    <td  class="padd_lft" style="border-right:1px solid #cccccc;"> Professor & Head</td>
+                                    <td  class="padd_lft" style="border-right:1px solid #cccccc;"> Professor & Head </td>
 
                                   </tr>
 
@@ -151,7 +162,7 @@ function carousel() {
                                   <tr  class="t_hd">
 
 
-                                    <td  class="padd_lft"><br><img src="images/staff/css.jpg" width=100 height=100/><br>Mrs. S Suma <br></td>
+                                    <td  class="padd_lft"><br><img src="images/staff/tempMale.png"" width=100 height=100/><br>New Teacher <br></td>
 
                                     <td  class="padd_lft"  style="height:90px;">B.E., M.Tech.</td>
 
@@ -184,9 +195,9 @@ function carousel() {
                                   <tr  class="t_hd">
 
 
-                                    <td  class="padd_lft"><br><img src="images/staff/tempMale.png" width=100 height=100/><br>Mr K S Gowtham<br></td>
+                                    <td  class="padd_lft"><br><img src="images/delete_madbeda.jpeg" width=100 height=100/><br>Mr K S Gowtham<br></td>
 
-                                    <td  class="padd_lft"  style="height:90px;">---</td>
+                                    <td  class="padd_lft"  style="height:90px;"><-- HE HAD IT COMMING ;)</td>
 
                                     <td  class="padd_lft" style="border-right:1px solid #cccccc;">Lab Instructor</td>
 
