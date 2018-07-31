@@ -94,3 +94,7 @@ ul{
   color: #fff;
   text-transform: uppercase;
 }
+/**/
+table,th,tr{
+  border: 1px solid blank;
+}
